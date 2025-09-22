@@ -1,7 +1,37 @@
 body{
-    background-color: rgb(69, 154, 175);
-    color: rgb(255, 255, 255);
+    background-color: rgb(171, 198, 199);
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 30px;
 }
 
+p{
+    color: rgb(42, 114, 143);
+}
+
+.titulo1{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+
+}
+
+
 header{color:rgb(0, 0, 0);}
+
+
+.botao1{
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: rgb(163, 185, 103);
+}
+
+.botao1:hover{
+    background-color: rgb(34, 77, 80) ;
+    box-shadow: 1px 4px rgb(35, 42, 43);
+}
+
+
+
