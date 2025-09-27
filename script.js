@@ -1,8 +1,8 @@
 let notasID = document.getElementById('notas');
-notasID.addEventListener('input', armazenamentoLocal) ;
+notasID.addEventListener('input', armazenamentoLocal);
     
  let tituloID = document.getElementById('areaDoTítulo');
-tituloID.addEventListener('input', armazenamentoLocal) 
+tituloID.addEventListener('input', armazenamentoLocal);
 
  tituloID.value = localStorage.getItem('Titulo') || '';
  notasID.value = localStorage.getItem('notas') || '';
