@@ -20,3 +20,8 @@ function armazenamentoLocal() {
     let armazemNota = localStorage.setItem('notas', notas);
 }
 
+function botaoMenu() {
+    let menu = document.getElementById('menuDeOpcoes');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
+
