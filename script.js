@@ -25,3 +25,20 @@ function botaoMenu() {
     menu.style.display = menu.style.display === 'inline-block' ? 'none' : 'inline-block';
 }
 
+function apertarBotao() {
+    const inspiração = document.getElementById('btnInspiracao');
+    inspiração.addEventListener('click', () => {
+        const div = document.getElementById('foto');
+        let img = div.querySelector('img');
+
+        if(!img) {
+            img = document.createElement('img');
+            img.src = '/imagens/davi-brito.png';
+            div.appendChild(img);
+        } else {
+            img.style.display = (img.style.display === 'none') ? 'block' : 'none';
+        }
+    })
+}
+
+apertarBotao();
