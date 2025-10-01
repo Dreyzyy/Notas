@@ -22,6 +22,6 @@ function armazenamentoLocal() {
 
 function botaoMenu() {
     let menu = document.getElementById('menuDeOpcoes');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    menu.style.display = menu.style.display === 'inline-block' ? 'none' : 'inline-block';
 }
 
