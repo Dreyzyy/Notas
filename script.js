@@ -1,3 +1,5 @@
+"use strict"; //previne erros
+
 let notasID = document.getElementById('notas');
 notasID.addEventListener('input', armazenamentoLocal);
     
