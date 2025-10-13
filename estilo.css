@@ -93,7 +93,7 @@ hr{
  }
 
  .areaDaNota:focus{
-    outline: 1.5px solid #ffaa5e;
+    outline: 1.5px solid #d1c2a7;
  }
   
  .notaemsi{
@@ -128,18 +128,21 @@ hr{
    }
 
  .menuDeOpcoes{
-   margin-left: -200px;
+   margin-left: -150px;
    margin-top: 20px;
    display: none;
    position: absolute;
+
 
  }
 
  .opcoes{
    width: 70%;
-   background-color: none;
+   background-color:  #8a5a02;
    padding: 5px;
-   
+   cursor: pointer;
+   border-radius: 10px;
+   border: 1px solid  #d1c2a7;
    
    
  }
