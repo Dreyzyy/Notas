@@ -3,6 +3,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box;
    font-family: "Alan Sans", sans-serif;
    font-weight: 400;
+   
 }
 
 body{
@@ -148,9 +149,32 @@ hr{
    border-radius: 10px;
    border: 1px solid  #5c410e9a;
    
-   
  }
  
+ /*botão de salvar*/
+
+ .botaoDeSalvar{
+   background-color: #D4AF99;
+   color: #964e41 ;
+   border: 2px solid #aaa499;
+   border-radius: 10px;
+   height: 30px;
+   padding: 4px;
+   width: 80px;
+   font-size: 90%;
+   margin-top: 10px;
+   cursor: pointer;
+
+ }
+
+ .botaoDeSalvar:focus{
+   outline: 1.5px solid #D9C4A8;
+ }
+
+ .botaoDeSalvar:hover{
+    background-color: #ddd4c4c2;
+    box-shadow: 0px 3px #EDE7DD
+ }
 
  
     
